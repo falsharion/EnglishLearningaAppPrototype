@@ -5,25 +5,25 @@ const skillsData = [
   
     {
         id:2,
-         topic:"reading",
+         topic:"Reading",
       percent: 100,
       image:"read.png"
     },
     { 
         id:1,
-        topic: "writing",
+        topic: "Writing",
       percent: 85,
       image:"writing.png"
     },
     { 
         id:3,
-        topic:"speaking",
+        topic:"Speaking",
     percent: 100,
     image:"speak.png"
  },
     { 
         id:4,
-        topic:"listening",
+        topic:"Listening",
     percent: 75,
     image:"listening.png"
   }
