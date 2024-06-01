@@ -1,21 +1,27 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { useSwipeable } from 'react-swipeable';
-import lessonsData from '../data/lessons.json'; // Ensure this path is correct
+import { ImageContext } from '../context/ImageContext';
+import lessonsData from '../data/lessons.json'; 
 
+const LessonCard = ({ title, progress, imageKey, description }) => {
+  const images = useContext(ImageContext);
 
-const LessonCard = ({ title, progress, image, description }) => (
-  <div className="lesson-card">
-    <div className='lesson-image'><img src={image} alt={title} className="lesson-image" loading='lazy'  /></div>
-    <div className="straight-progress-container">
-      <div className="straight-progress-bar">
-        <div className="straight-progress" style={{ width: `${progress}%` }}></div>
+  return (
+    <div className="lesson-card">
+      <div className="lesson-image">
+        <img src={images[imageKey]} alt={title} className="lesson-image" loading="lazy" />
       </div>
-      <span className="straight-progress-percent">{progress}%</span>
+      <div className="straight-progress-container">
+        <div className="straight-progress-bar">
+          <div className="straight-progress" style={{ width: `${progress}%` }}></div>
+        </div>
+        <span className="straight-progress-percent">{progress}%</span>
+      </div>
+      <h3>{title}</h3>
+      <p>{description}</p>
     </div>
-    <h3>{title}</h3>
-    <p>{description}</p>
-  </div>
-);
+  );
+};
 
 const LessonList = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -45,7 +51,7 @@ const LessonList = () => {
             key={lesson.id}
             title={lesson.title}
             progress={lesson.progress}
-            image={lesson.image}
+            imageKey={lesson.imageKey}
             description={lesson.description}
           />
         ))}

@@ -6,10 +6,13 @@ import SectionHeader from "./component/SectionHeader";
 import LessonList from "./component/LessonList";
 import LeaderBoardList from "./component/LeaderBoardList";
 import DesktopWarning from "./component/DesktopWarning"; 
+import { ImageProvider } from './context/ImageContext';
 
 function App() {
-  return (
+  return (  
+    <ImageProvider>
     <div>
+
        <DesktopWarning />
        <div className="mobile-only">
       <div className="header">
@@ -48,7 +51,9 @@ function App() {
         <LeaderBoardList />
       </div>
       </div>
-    </div>
+     
+    </div> 
+    </ImageProvider>
   );
 }
 
