@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Yasmine Lee",
+      "country": "Taiwan",
+      "image": "https://images.unsplash.com/photo-1641351841616-faa0d3760980?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "streakcount": 1230
+    },
+    {
+      "id": 2,
+      "name": "Guy Hawkins",
+      "country": "Spain",
+      "image": "https://images.unsplash.com/photo-1576527194426-7009645f8b5f?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "streakcount": 1130
+    },
+    {
+      "id": 3,
+      "name": "Jung Min",
+      "country": "Japan",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "streakcount": 1040
+    },
+    {
+      "id": 4,
+      "name": "Lilian Oke",
+      "country": "Nigeria",
+      "image": "https://images.unsplash.com/photo-1530785896884-7929f3dd1954?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "streakcount": 1119
+    },
+    {
+      "id": 5,
+      "name": "Justin Newn",
+      "country": "America",
+      "image": "https://images.unsplash.com/photo-1484608856193-968d2be4080e?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "streakcount": 1022
+    }
+  ]
+  

@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "title": "Speaking 101",
+      "progress": 60,
+      "image": "speaking.png",
+      "description": "30 days*daily"
+    },
+    {
+      "id": 2,
+      "title": "New words",
+      "progress": 70,
+      "image": "vocab.png",
+      "description": "90 days*daily"
+    },
+    {
+      "id": 3,
+      "title": "New words",
+      "progress": 60,
+      "image": "vocab.png",
+      "description": "30 days*daily"
+    },
+    {
+      "id": 4,
+      "title": "Speaking 102",
+      "progress": 60,
+      "image": "speaking.png",
+      "description": "90 days*daily"
+    },
+    {
+      "id": 5,
+      "title": "Writing 1010",
+      "progress": 60,
+      "image": "vocab.png",
+      "description": "30 days*daily"
+    },
+    {
+      "id": 6,
+      "title": "Writing 103",
+      "progress": 60,
+      "image": "speaking.png",
+      "description": "30 days*daily"
+    }
+  ]
+  
