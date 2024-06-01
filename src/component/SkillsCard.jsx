@@ -35,7 +35,7 @@ const skillsData = [
 const SkillsList = ({ topic, percent, image}) => (
   <div className="skill-container">
     <div className='skill-card'>
-        <img src={image} alt={topic} className="" />
+        <img src={image} alt={topic} loading='lazy' />
     </div>
     <div>
         <h3>{topic}</h3>

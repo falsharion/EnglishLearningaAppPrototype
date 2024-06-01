@@ -5,7 +5,7 @@ import lessonsData from '../data/lessons.json'; // Ensure this path is correct
 
 const LessonCard = ({ title, progress, image, description }) => (
   <div className="lesson-card">
-    <div className='lesson-image'><img src={image} alt={title} className="lesson-image" /></div>
+    <div className='lesson-image'><img src={image} alt={title} className="lesson-image" loading='lazy'  /></div>
     <div className="straight-progress-container">
       <div className="straight-progress-bar">
         <div className="straight-progress" style={{ width: `${progress}%` }}></div>

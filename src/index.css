@@ -329,7 +329,7 @@ margin-right: 5px;
 }
 
 .progress-page-header {
-  margin: 30px;
+  margin: 25px;
   color: #000000;
   display: flex;
   align-items: center;
@@ -337,7 +337,7 @@ margin-right: 5px;
 }
 
 .progress-page-header h3 {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 600;
 }
 
@@ -396,7 +396,7 @@ margin-right: 5px;
   font-size: 15px;
   justify-content: space-between;
   align-items: center;
-  margin: 25px;
+  margin: 19px 25px;
 }
 .skill-section-header h2 {
   font-weight: 400;

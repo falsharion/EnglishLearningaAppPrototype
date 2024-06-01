@@ -7,7 +7,7 @@ import { LiaArrowUpSolid } from "react-icons/lia";
 const UserList = ({ name, country, image, streakcount }) => (
   <div className="user-container">
     <div className='user-profile'>
-      <img src={image} alt={name} className="user-image" />
+      <img src={image} alt={name} className="user-image" loading='lazy'  />
       <div>
         <h3 className='user-lead-name'>{name}</h3>
         <p >{country}</p>
